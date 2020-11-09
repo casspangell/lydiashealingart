@@ -5196,7 +5196,7 @@ footer .footer-top .map-area address p {
 /*------- navigation css --------*/
 .prs_menu_main_wrapper{
 	float:left;
-	padding-left: 30px;
+	padding-left: 0px;
 }
 #sticktop {
 	width: 100%;
