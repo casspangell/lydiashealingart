@@ -34,6 +34,13 @@
         <link rel="stylesheet" href="css/responsive.css">
 		<!-- modernizr css -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        </style>
+
     </head>
     <body>
        <!-- preloader Start -->
@@ -48,11 +55,11 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                         <div class="logo-area">
-                            <a href="index.html" class="non-scrool"><img src="images/logo/logo.png" alt=""/></a>
-                            <a href="#" class="scrool"><img src="images/logo/logo-dark.png" alt=""/></a>
+                          <a href="index.html" class="non-scrool"><img src="images/lydias_bird_black.gif" width=100% height="auto" style="padding-left: 25px"><!--<img src="images/logo/logo_lydia_white.png" style="padding-left: 10px" height="100%" width="auto"></a> -->
+                          <a href="index.html" class="scrool"><img src="images/lydias_bird_white.gif"  width="100%" width="auto" style="padding-left: 25px"></a>
                         </div>
                     </div>
-                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                        <div class="prs_menu_main_wrapper">
                     <nav class="navbar navbar-default">
                       <div id="dl-menu" class="xv-menuwrapper responsive-menu">
@@ -76,8 +83,8 @@
                   </nav>
                 </div>
                         <div class="header-right">
-                            <span class="con-tc"><i class="fa fa-phone" aria-hidden="true"></i>+1 999 9999 9999</span>
-                            <a href="#" class="btn1 top_navi_btn"><span>APPOINTMENT</span></a>
+                            <span class="con-tc"></span>
+                            <a href="#contact" class="btn1 top_navi_btn"><span>CONTACT</span></a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +138,12 @@
 
                              <p class="wow animated fadeInUp" data-wow-duration="2s" style="color:white">In Master Sha’s teachings, Tao is The Source and Ultimate Creator; Tao is Oneness. Everything comes from Tao and everything returns to Tao.</p>
 
-                            <!-- <img src="images/sun.jpg" alt="" width="50%" height="50%" position="center"/> <img src="images/face_rock.png" alt="" width="75%" height="75%" /> -->
+                            <p><div style="display: table; content: ""; clear: both;">
+                                <div style="float: left; width: 33.33%;"><img src="images/sun.jpg" alt="" width="auto" height="auto" position="center"/> </div>
+                                <div style="float: left; width: 33.33%;"><img src="images/face_rock.png" alt="" width="auto" height="auto" /> </div>
+                                <div style="float: left; width: 33.33%;"><img src="images/mandala.jpg" alt="" width="auto" height="auto" /> </div>
+                            </div>
+                            </p> 
                         </div>
                     </div>
                 </div>
@@ -169,16 +181,13 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="videos">
                             <ul class="list-inline" role="tablist">
-                                <li role="presentation" class="active"><a href="#vid1" aria-controls="vid1" role="tab" data-toggle="tab">Video 1</a></li>
-                                <li role="presentation"><a href="#vid2" aria-controls="vid2" role="tab" data-toggle="tab">Video 2</a></li>
-                                <li role="presentation"><a href="#vid3" aria-controls="vid3" role="tab" data-toggle="tab">Video 3</a></li>
-                                <li role="presentation"><a href="#vid4" aria-controls="vid4" role="tab" data-toggle="tab">Video 4</a></li>
+                                <li role="presentation" class="active"><a href="#vid1" aria-controls="vid1" role="tab" data-toggle="tab">Back Pain</a></li>
                             </ul>
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="vid1">
                                     <figure>
-                                        <img src="images/videos/1.jpg" alt=""/>
-                                        <a href="https://www.youtube.com/watch?v=0I8GmbDU7c4" class="video-play-icon"><i class="fa fa-play"></i></a>
+                                        <img src="images/videos/lydia_back_pain_video.jpg" alt=""/>
+                                        <a href="https://www.youtube.com/watch?v=83LR-zOUYTc" class="video-play-icon"><i class="fa fa-play"></i></a>
                                     </figure>
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="vid2">
@@ -214,7 +223,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="padding-top: 0px">
-                            <div class="about-spa">
+                            <div class="about-spa" id="contact">
                                 <span>Contsct Us</span>
                                 <h2>Get In Touch</h2>
                                 <p>Nisi elit consequat ipsum, akshay handge nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputat.</p>

@@ -34,6 +34,13 @@
         <link rel="stylesheet" href="css/responsive.css">
 		<!-- modernizr css -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        </style>
+
     </head>
     <body>
 	<!-- preloader Start -->
@@ -51,8 +58,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                         <div class="logo-area">
-                            <a href="index.html" class="non-scrool"><img src="images/logo/logo.png" alt=""/></a>
-                            <a href="#" class="scrool"><img src="images/logo/logo-dark.png" alt=""/></a>
+                          <a href="index.html" class="non-scrool"><img src="images/lydias_bird_black.gif" width=100% height="auto" style="padding-left: 25px"><!--<img src="images/logo/logo_lydia_white.png" style="padding-left: 10px" height="100%" width="auto"></a> -->
+                          <a href="index.html" class="scrool"><img src="images/lydias_bird_white.gif"  width="100%" width="auto" style="padding-left: 25px"></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
@@ -80,7 +87,7 @@
 				</div>
                         <div class="header-right">
                             <span class="con-tc"><i class="fa fa-phone" aria-hidden="true"></i>+1 999 9999 9999</span>
-                            <a href="#" class="btn1 top_navi_btn"><span>APPOINTMENT</span></a>
+                            <a href="#contact" class="btn1 top_navi_btn"><span>CONTACT</span></a>
                         </div>
                     </div>
                 </div>
@@ -128,22 +135,22 @@ In 2005, Master Sha began transmitting Tao Hands (previously called Divine Heali
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-12 pd-0">
-                                    <figure><img src="images/booking/1.jpg" alt=""/></figure>
+                                    <figure><img src="images/handsoflight.jpg" style="width: auto; height: auto; padding: 5px" alt=""/></figure>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <div class="thera-slider">
                                         <div class="thera-list">
                                             <div class="price">
                                                 <strong><b>$</b>99</strong>
-                                                <span>/day</span>
+                                                <span>/blessing</span>
                                             </div>
-                                            <p>Duis sed odio sit amet nibh vulpute cursus a sit amet mauris. </p>
+                                            <p>Here's a description </p>
                                             
                                         </div>
                                         <div class="thera-list">
                                             <div class="price">
                                                 <strong><b>$</b>99</strong>
-                                                <span>/day</span>
+                                                <span>/blessing</span>
                                             </div>
                                             <p>Duis sed odio sit amet nibh vulpute cursus a sit amet mauris. </p>
                                            
@@ -151,7 +158,7 @@ In 2005, Master Sha began transmitting Tao Hands (previously called Divine Heali
                                         <div class="thera-list">
                                             <div class="price">
                                                 <strong><b>$</b>99</strong>
-                                                <span>/day</span>
+                                                <span>/blessing</span>
                                             </div>
                                             <p>Duis sed odio sit amet nibh vulpute cursus a sit amet mauris. </p>
                                            
@@ -159,7 +166,7 @@ In 2005, Master Sha began transmitting Tao Hands (previously called Divine Heali
                                         <div class="thera-list">
                                             <div class="price">
                                                 <strong><b>$</b>99</strong>
-                                                <span>/day</span>
+                                                <span>/package</span>
                                             </div>
                                             <p>Duis sed odio sit amet nibh vulpute cursus a sit amet mauris. </p>
                                             
@@ -178,11 +185,11 @@ In 2005, Master Sha began transmitting Tao Hands (previously called Divine Heali
                                         <fieldset><input type="email" placeholder="Email Address *"></fieldset>
                                         <fieldset><input type="number" placeholder="Phone"></fieldset>
                                         <fieldset><select>
-                                            <option>Select Therapy</option>
-                                            <option>Beauty Care</option>
-                                            <option>Skin Care</option>
-                                            <option>Coral Styler</option>
-                                            <option>Massage Item</option>
+                                            <option>Option 1</option>
+                                            <option>Option 2</option>
+                                            <option>Option 3</option>
+                                            <option>Option 4</option>
+                                            <option>Option 5</option>
                                         </select></fieldset>
                                         <fieldset><textarea placeholder="Message"></textarea></fieldset>
                                         <button type="submit" class="btn3"><span>Book</span></button>
@@ -207,8 +214,8 @@ In 2005, Master Sha began transmitting Tao Hands (previously called Divine Heali
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                            <div class="about-spa">
-                                <span>Contsct Us</span>
+                            <div class="about-spa" id="contact">
+                                <span>Contact Us</span>
                                 <h2>Get In Touch</h2>
                                 <p>Nisi elit consequat ipsum, akshay handge nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputat.</p>
                             </div>
@@ -244,16 +251,13 @@ In 2005, Master Sha began transmitting Tao Hands (previously called Divine Heali
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="copyright">
-                                <p>Copyright © Feeling Spa 2018. All rights reserved.</p>
+                                <p>Copyright © Lydia's Healing Art 2020. All rights reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="bot-social">
                                 <ul class="list-inline">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -292,22 +296,6 @@ In 2005, Master Sha began transmitting Tao Hands (previously called Divine Heali
         <script src="js/plugins.js"></script>
 		<!-- main js -->
         <script src="js/main.js"></script>
-		<script>
-	function initMap() {
-	var uluru = {lat: -36.742775, lng:  174.731559};
-	var map = new google.maps.Map(document.getElementById('map'), {
-	zoom: 15,
-	scrollwheel: false,
-	center: uluru
-	});
-	var marker = new google.maps.Marker({
-	position: uluru,
-	map: map
-	});
-	}
-</script>
-<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmdG8C6ItElq5ipuFv6O9AE48wyZm_vqU&callback=initMap">
-</script>
+		
     </body>
 </html>

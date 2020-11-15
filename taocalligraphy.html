@@ -34,6 +34,13 @@
         <link rel="stylesheet" href="css/responsive.css">
 		<!-- modernizr css -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        </style>
+
     </head>
     <body>
 	<!-- preloader Start -->
@@ -51,8 +58,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                         <div class="logo-area">
-                            <a href="index.html" class="non-scrool"><img src="images/logo/logo.png" alt=""/></a>
-                            <a href="#" class="scrool"><img src="images/logo/logo-dark.png" alt=""/></a>
+                          <a href="index.html" class="non-scrool"><img src="images/lydias_bird_black.gif" width=100% height="auto" style="padding-left: 25px"><!--<img src="images/logo/logo_lydia_white.png" style="padding-left: 10px" height="100%" width="auto"></a> -->
+                          <a href="index.html" class="scrool"><img src="images/lydias_bird_white.gif"  width="100%" width="auto" style="padding-left: 25px"></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
@@ -80,30 +87,44 @@
 				</div>
                         <div class="header-right">
                             <span class="con-tc"><i class="fa fa-phone" aria-hidden="true"></i>+1 999 9999 9999</span>
-                            <a href="#" class="btn1 top_navi_btn"><span>APPOINTMENT</span></a>
+                            <a href="#contact" class="btn1 top_navi_btn"><span>Contact</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <!--Header area end here-->
-        <!-- Spa About slider Start -->
-      <div class="about-gallery section2" style="background-color: black">
+
+<!--Slider area start here-->
+        <section class="slider-area bg-img jarallax" style="padding-bottom: 50px">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="about-img-slider">
-                            <figure><img src="images/taocalligraphy_1.jpg" alt=""/></figure> 
-                             <figure><img src="images/taocalligraphy_2.jpg" alt=""/></figure>
-                              <figure><img src="images/taocalligraphy_3.jpg" alt=""/></figure>
-                               <figure><img src="images/taocalligraphy_4.jpg" alt=""/></figure>
-                                <figure><img src="images/taocalligraphy_5.jpg" alt=""/></figure>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> 
+                       <!-- <div> -->
+                        <div class="content">
+                            <h2 class="wow animated fadeInUp" data-wow-duration="1.5s">The Tao Calligraphy is a unified, positive field of Tao Oneness information, energy, and matter. It is coherent, connected, and harmonious. It radiates the positive qualities of Tao Source.</h2>
+                            <p class="wow animated fadeInUp" data-wow-duration="1.5s">Using Tao Calligraphy, we can transform the negative information, energy and matter associated with our challenges and accumulate high frequency, positive information, making it much easier to access our true nature and become healthier and happier. The Tao Calligraphy Healing is created by Master Sha’s Tao Calligraphy.</p>
+                             
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" style="padding-top: 50px">
+                        <div class="slider-right-side wow animated fadeInUp" data-wow-duration="2s">
+                            <div class="photo-slider">
+                                <div class="content">
+                               <span class="tit">How does the Tao Calligraphy Healing happen?</span>
+                           </div>
+                         </div>
+                            <p class="wow animated fadeInUp" data-wow-duration="2s" style="color:white">Tao Calligraphy is a revolutionary healing art based on the ancient art of Yi Bi Zi calligraphy – a cursive (Oneness) writing that Master Sha learned from sole lineage holder, Professor Li Qiu Yun. At over 100 years of age, Professor Li passed the lineage to Master Sha. Given Master Sha’s life-long training and mastery of ancient philosophies, healing arts, spiritual practices and more, he was guided in a sacred way to profoundly connect with Tao Oneness. When Master Sha writes Yi Bi Zi style, he connects with Tao Oneness and Tao Source pours its essence (information, energy, and matter) into the calligraphy, transforming the Yi Bi Zi writing into a Tao Calligraphy that radiates the pure, positive information, energy and matter of Tao love, forgiveness, harmony, flourishing and more.</p>
+                            <p class="wow animated fadeInUp" data-wow-duration="2s" style="color:white">This positive, high-frequency field is within the Tao Calligraphy.  We can absorb the high frequencies, and let go of what blocks us from greater health, happiness, and success. With targeted practice with Tao Calligraphy, we can reach new heights spiritually, physically, mentally, and emotionally. We can accumulate more positive information energy and matter which translates into positive changes in our lives.</p>
+                             <p class="wow animated fadeInUp" data-wow-duration="2s" style="color:white">Master Sha teaches the Six Tao Healing Techniques (Body Power, Mind Power, Sound Power, Soul Power, Breathing Power, and Tao Calligraphy Power) so that people around the world can learn how to receive maximum benefit from the Tao Calligraphy to lead happier, healthier lives.</p>
                         </div>
                     </div>
                 </div>
+               
             </div>
-        </div>
-        <!--Spa About slider Start-->
+        </section>
+
 		 
 		<!--Therapies area start here-->
         <section class="therapies-area bg-img jarallax section1 af spa_about_booking_section">
@@ -205,8 +226,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                            <div class="about-spa">
-                                <span>Contsct Us</span>
+                            <div class="about-spa" id="contact">
+                                <span>Contact Us</span>
                                 <h2>Get In Touch</h2>
                                 <p>Nisi elit consequat ipsum, akshay handge nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputat.</p>
                             </div>
@@ -242,16 +263,13 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="copyright">
-                                <p>Copyright © Feeling Spa 2018. All rights reserved.</p>
+                                <p>Copyright © Lydia's Healing Art 2020. All rights reserved.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="bot-social">
                                 <ul class="list-inline">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -290,22 +308,6 @@
         <script src="js/plugins.js"></script>
         <!-- main js -->
         <script src="js/main.js"></script>
-        <script>
-    function initMap() {
-    var uluru = {lat: -36.742775, lng:  174.731559};
-    var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 15,
-    scrollwheel: false,
-    center: uluru
-    });
-    var marker = new google.maps.Marker({
-    position: uluru,
-    map: map
-    });
-    }
-</script>
-<script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmdG8C6ItElq5ipuFv6O9AE48wyZm_vqU&callback=initMap">
-</script>
+
     </body>
 </html>

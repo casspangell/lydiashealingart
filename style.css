@@ -3329,7 +3329,7 @@ footer .footer-top .map-area address p {
   position: relative;
   display: block;
   margin: 0;
-  border: 50px solid #fff;
+  border: 10px solid #fff;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
 .videos-area .videos .tab-content .tab-pane figure img {
@@ -5196,7 +5196,7 @@ footer .footer-top .map-area address p {
 /*------- navigation css --------*/
 .prs_menu_main_wrapper{
 	float:left;
-	padding-left: 0px;
+	padding-left: 30px;
 }
 #sticktop {
 	width: 100%;
