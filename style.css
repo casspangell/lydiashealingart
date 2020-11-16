@@ -1680,7 +1680,7 @@ h4 {
   margin: 0;
   z-index: 9999;
   border: none;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
 }
 #sticky.sticky .logo-area a {
   line-height: 80px;

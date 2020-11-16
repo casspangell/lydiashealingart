@@ -1,4 +1,5 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
@@ -55,8 +56,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                         <div class="logo-area">
-                          <a href="index.html" class="non-scrool"><img src="images/lydias_bird_black.gif" width=100% height="auto" style="padding-left: 25px"><!--<img src="images/logo/logo_lydia_white.png" style="padding-left: 10px" height="100%" width="auto"></a> -->
-                          <a href="index.html" class="scrool"><img src="images/lydias_bird_white.gif"  width="100%" width="auto" style="padding-left: 25px"></a>
+                          <a href="index.html" class="non-scrool"><img src="images/logo_white.gif" width=100% height="auto">
+                          <a href="index.html" class="scrool"><img src="images/logo_black.gif"  width="100%" height="auto"></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
@@ -76,7 +77,7 @@
                                       <li><a href="soulreadings.html">Soul Readings</a></li>
                                   </ul>
                               </li>
-                              <li class="parent"><a href="contact.html">Consultations</a>
+                              <li class="parent"><a href="consultations.html">Consultations</a>
                               </li>
                           </ul>
                       </div><!-- /dl-menuwrapper -->
@@ -84,6 +85,7 @@
                 </div>
                         <div class="header-right">
                             <span class="con-tc"></span>
+                            <span class="con-tc"><i class="fa fa-phone" aria-hidden="true"></i>+1 306-380-3377</span>
                             <a href="#contact" class="btn1 top_navi_btn"><span>CONTACT</span></a>
                         </div>
                     </div>
@@ -129,33 +131,28 @@
                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                             <div class="about-spa" id="contact">
                                 <span>Contact Us</span>
-                                <h2>Get In Touch</h2>
-                                <p>Nisi elit consequat ipsum, akshay handge nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputat.</p>
+                                <h2>Get In Touch with Lydia</h2>
                             </div>
                             <div class="subs-box">
-                                <form>
+       
                                     <span style="color: white">Subscribe To Our Newsletter</span>
-                                    <input type="email" placeholder="Email Address *">
-                                    <button><i class="fa fa-long-arrow-right"></i></button>
-                                </form>
+
+                                    <form action="mail_handler.php" method="post">
+                                        <input type="text" name="first_name" placeholder="Name *" required><br>
+                                        <input type="email" name="email" placeholder="Email Address *" required><br><button name="submit"><i class="fa fa-long-arrow-right"></i></button>
+                                       
+                                        
+                                    </form>
+
                             </div>
                             <div class="con-info">
                                 <ul>
-                                    <li><span><i class="fa fa-phone"></i></span><p>Call : +123 456 789</p></li>
-                                    <li><span><i class="fa fa-envelope"></i></span><p>Email :<strong> book@example.com</strong></p></li>
-                                    <li><span><i class="fa fa-clock-o"></i></span><p>Opening Times : 11:30 - 22:00 Clock</p></li>
+                                    <li><span><i class="fa fa-phone"></i></span><p>Call : +1 604-359-5568</p></li>
+                                    <li><span><i class="fa fa-envelope"></i></span><p>Email :<strong> <a href="mailto:lydia@lydiashealingart.com">lydia@lydiashealingart.com</a></strong></p></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                            <div class="map-area">
-                                <div id="map" class="map-full" style="width:100%; height:450px;"></div>
-                                <address>
-                                    <strong>Address</strong>
-                                    <p>123 Street, Dewas House, Country, 12345</p>
-                                </address>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -171,9 +168,6 @@
                             <div class="bot-social">
                                 <ul class="list-inline">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -214,9 +208,6 @@
         
         <!-- main js -->
         <script src="js/main.js"></script>
-        <script>
-
-</script>
 
     </body>
 </html>
